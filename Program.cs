@@ -22,7 +22,7 @@ else palindrom(x);
 //Напишите программу, 
 //которая принимает на вход координаты двух точек и 
 //находит расстояние между ними в 3D пространстве.
-
+/*
 double Dist (int x1, int y1, int z1, int x2, int y2, int z2) {
     int min1 = x2 - x1;
     int min2 = y2 - y1;
@@ -47,3 +47,17 @@ Console.WriteLine("Введите z2: ");
 int c2 = Convert.ToInt32(Console.ReadLine());
 double res = Dist (a1,b1,c1,a2,b2,c2);
 Console.WriteLine(res);
+*/
+//Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+/*
+void Cub (int num) {
+    int curr = 1;
+    while (curr <= num){
+    Console.Write (curr*curr*curr + ", ");
+    curr++;
+    }
+}
+Console.WriteLine("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Cub (n);
+*/
